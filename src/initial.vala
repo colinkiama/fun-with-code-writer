@@ -1,3 +1,3 @@
 public static void main () {
-   print ("hello world");
+    print ("hello world");
 }
