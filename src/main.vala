@@ -21,6 +21,7 @@ int main (string[] args) {
 
     context.check ();
 
+    // TODO: Modify the print method call's expression so that is shows "Hello World";
     Vala.TraverseVisitor print_statement_visitor = new Vala.TraverseVisitor ((node) => {
         if (node is Vala.MethodCall) {
             var method_call = (Vala.MethodCall) node;
@@ -49,6 +50,10 @@ int main (string[] args) {
 
         return Vala.TraverseStatus.CONTINUE;
     });
+
+    // TODO: Write the modified AST into a using a CodeWriter with the DUMP type
+
+
 
     context.accept (print_statement_visitor);
     return 0;
