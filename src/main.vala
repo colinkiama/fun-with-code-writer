@@ -51,12 +51,13 @@ int main (string[] args) {
         return Vala.TraverseStatus.CONTINUE;
     });
 
-    // TODO: Write the modified AST into a using a CodeWriter with the DUMP type
+     // TODO: Write modified AST into a using a CodeWriter with the DUMP type
+    Vala.CodeWriter code_writer = new Vala.CodeWriter (Vala.CodeWriterType.DUMP);
+    code_writer.write_file (context, "codewriterresult.vala");
 
     // TODO: Create your own CodeWriter by extending the CodeWriter class.
     // If all goes well, you should experiment with formatting the code.
     // Maybe with some whitespace characters?
-
 
     context.accept (print_statement_visitor);
     return 0;
