@@ -53,6 +53,9 @@ int main (string[] args) {
 
     // TODO: Write the modified AST into a using a CodeWriter with the DUMP type
 
+    // TODO: Create your own CodeWriter by extending the CodeWriter class.
+    // If all goes well, you should experiment with formatting the code.
+    // Maybe with some whitespace characters?
 
 
     context.accept (print_statement_visitor);
