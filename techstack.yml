@@ -1,7 +1,8 @@
 repo_name: colinkiama/fun-with-code-writer
 report_id: f29f10d3cc5b982910c2c846394bd2c8
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-12T07:08:29+00:00'
+timestamp: '2024-01-05T08:49:32+00:00'
 requested_by: colinkiama
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4409/default_afecc12361f844da33073465e0ab7b27b1715f16.jpg
+  detection_source_url: https://github.com/colinkiama/fun-with-code-writer
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -24,4 +26,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/colinkiama/fun-with-code-writer
   detection_source: Repo Metadata
